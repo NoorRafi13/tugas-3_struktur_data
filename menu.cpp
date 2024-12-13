@@ -2,8 +2,15 @@
 #include <conio.h>
 using namespace std;
 
+int n; 
 
-void dMenu(){
+void tukar(int *a,int *b){
+  int t=*a;
+  *a=*b;
+  *b=t;
+}
+
+void dMenu() {
 system("cls");
 cout<<"Aplikasi Sorting Bubble"<<"\n";       
 cout<<"1. masukan data"<<"\n";            
@@ -11,8 +18,7 @@ cout<<"2. tampilkan data"<<"\n";
 cout<<"3. sorting asc"<<"\n";           
 cout<<"4. sorting dsc"<<"\n";            
 cout<<"5. Exit"<<"\n";           
-cout<<"Masukan angka :+62;        
-
+cout<<"Masukan angka :";        
 }
 
 void mPertama(string pesan){
@@ -23,6 +29,7 @@ getch();
 
 
 int main() {
+int data[100];
 char pl;
 do
 {
