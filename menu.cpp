@@ -11,7 +11,7 @@ cout<<"2. tampilkan data"<<"\n";
 cout<<"3. sorting asc"<<"\n";           
 cout<<"4. sorting dsc"<<"\n";            
 cout<<"5. Exit"<<"\n";           
-cout<<"Masukan angka :";        
+cout<<"Masukan angka :+62;        
 
 }
 
